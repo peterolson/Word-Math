@@ -38,3 +38,17 @@ You need to already have jQuery loaded before you run Word Math. All you need to
 
     <script src="http://code.jquery.com/jquery.min.js"></script>
     <script src="js/wordMath.jquery.min.js"></script>
+    
+Word Math sans jQuery
+---
+
+If you are one of the few who prefers to use Word Math without dependency on jQuery (and thus without the namespacing advantages that jQuery provides), you may prefer the vanilla Javascript version of Word Math.
+
+The usage for Word Math sans jQuery is identical to the usage of Word Math with jQuery, except that you do not need to prefix your calls with `$.`. In other words, instead of doing
+
+    $.wordMath("fifteen").add("eighteen")
+    
+you would instead do
+
+    wordMath("fifteen").add("eighteen")
+    
