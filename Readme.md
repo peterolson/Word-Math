@@ -23,7 +23,7 @@ Word Math will even interpret the words "pi" and "e"
 
 You can convert a Word Math number to a Javascript number with the `value` property
 
-    $.wordMath("three billion four hundred and sixty seven thousand five hundred and forty two").value
+    $.wordMath("three million four hundred and sixty seven thousand five hundred and forty two").value
     // 3467542
     
 Finally, you can convert a Javascript number to words with the `$.wordMath.toString` function
