@@ -89,7 +89,7 @@
 		var places = [''].concat(names);
 		var decimals = ["tenth", "hundredth"];
 		for (var i = 0; i < names.length; i++) {
-			decimals.push(names[i]);
+			decimals.push(names[i] + "th");
 			decimals.push("ten " + names[i] + "th");
 			decimals.push("hundred " + names[i] + "th");
 		}
